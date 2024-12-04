@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Noto+Sans+JP:wght@100..900&family=Petit+Formal+Script&display=swap');
+
+
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 100 to 900 */
+
+.noto-sans-jp-regular {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-sans-jp-thin {
+    font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: thin;
+}
+
+.italiana-regular {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+.petit-formal-script-regular {
+    font-family: "Petit Formal Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body{
+    background-color: #13262f;
+    color: #e9e6ff;
+}
+
+h1{
+    text-align:center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: black !important;
+    color: white;
+    font-weight: bold;
+    animation: color-change 5s infinite;
+}
+
+@keyframes color-change {
+    0% { color: red; }
+    14% { color: orange; }
+    28% { color: yellow; }
+    42% { color: greenyellow; }
+    56% { color: cyan; }
+    70% { color: blue; }
+    84% { color: magenta; }
+    100%{ color: red;}
+  }
+
+.tabs{
+    font-family: "Italiana",system-ui,serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: #96c5b0;
+}
+
+.tabs a, .tabs a:visited, .tabs a:active {
+    color: black !important;
+    text-decoration: none;
+  }
+
+.tabs a:hover {
+    color: #e9e6ff !important;
+    text-decoration: solid;
+}
+
+.news a, .news a:visited, .news a:active {
+    color: white;
+    text-decoration: none;
+  }
+
+.news a:hover {
+    color: #e9e6ff;
+    text-decoration: solid;
+}
+
+.persuasion{
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 11px;
+}
+
+.persuasion a, .persuasion a:visited, .persuasion a:active{
+    color: #96c5b0 !important;
+    text-decoration: none;
+}
+
+.persuasion a:hover{
+    color: #96c5b0;
+    text-decoration: underline !important;
+    animation: review-anim 2s infinite !important;
+}
+
+@keyframes review-anim{
+    0% { color: #96c5b0;}
+    25%{ color: white;}
+    75%{ color: #96c5b0;}
+}
+
+#logo{
+    text-align: center;
+}
+
+.header-img{
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+.header-img img{
+    width: 100%;
+    object-fit: cover;
+    object-position: 0px -200px;
+}
+
+#main-title{
+    font-family: "Petit Formal Script", serif;
+    font-size: 150px;
+    font-weight: bold;
+}
+
+.container{
+    width: 80vw;
+    height: 500px;
+    display: flex;
+    align-self: center;
+    margin-inline: auto;
+}
+
+.div1{
+    width: 60%;
+    font-family: "Noto Sans JP", sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.div2{
+    width: 40%;
+    padding: 20px;
+    overflow: hidden;
+    text-align: right;
+}
+
+.div2 img{
+    height: 300px;
+    border-radius: 15px;
+}
+
+.news-title{
+    font-family: "Petit Formal Script";
+    font-size: 40px;
+    color: #96c5b0;
+}
+
+.news{
+    width: 60vw;
+    font-family: system-ui, sans-serif;
+    font-weight: bold;
+    padding-left: 90px;
+}
+
+.news h3{
+    font-family: "Noto Sans JP",sans-serif;
+}
+
+button{
+    width: auto;
+    height: auto;
+    border: 0px;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    background-color: #96c5b0;
+    color: black;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    transition-duration: 0.25s;
+}
+
+button:hover{
+    background-color: #e9e6ff;
+    color: #13262f;
+}
+
+#slogan{
+    text-align: center;
+    font-size: 90px;
+    width:100%;
+    height: auto;
+    font-family: "Italiana", sans-serif;
+    color: white;
+}
+
+#summary{
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.footer-left{
+    width: 50%;
+    height:auto;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 5px;
+    border-color: #e9e6ff;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.footer-left img{
+    padding-top: 50px;
+    width:125px;
+}
+
+.footer-left p{
+    margin-bottom: -10px;
+    color: #274b5c;
+}
+
+#credits{
+    font-size:20px; 
+    color:white;
+    font-weight:700; 
+    margin:0px; 
+    padding-bottom: 20px;
+}
+
+.footer-right{
+    width: 50%;
+    height: auto;
+    text-align: left;
+    padding-left: 15px;
+    border-left: 5px;
+    border-color: #e9e6ff;
+}
+
+.product-list{
+    font-family: "Noto Sans JP", sans-serif;
+    text-align: center;
+    width: 100vw;
+    height: 800px;
+}
+
+.prod-line1{
+    height: 50%;
+    display: flex;
+}
+
+#prod1{
+    width: 50%;
+    height: 100%;
+    margin: 50px;
+}
+
+#prod1 img{
+    height: 200px;
+}
+
+#prod2{
+    width: 50%;
+    height: 100%;
+    margin: 50px;
+}
+
+#prod2 img{
+    height: 200px;
+}
+
+.prod-line2{
+    height: 50%;
+    display: flex;
+}
+
+#prod3{
+    width: 50%;
+    height: 100%;
+    margin: 50px;
+}
+
+#prod3 img{
+    height: 200px;
+}
+
+#prod4{
+    width: 50%;
+    height: 100%;
+    margin: 50px;
+}
+
+#prod4 img{
+    height: 200px;
+}
+
+.reviews{
+    font-family: "Noto Sans JP", sans-serif;
+    text-align: right;
+    padding-right: 50px;
+}
