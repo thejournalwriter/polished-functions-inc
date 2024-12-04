@@ -310,7 +310,7 @@ button:hover{
     height: 200px;
 }
 
-.reviews{
+#reviews{
     font-family: "Noto Sans JP", sans-serif;
     text-align: right;
     padding-right: 50px;
